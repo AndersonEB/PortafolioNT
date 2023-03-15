@@ -1,0 +1,151 @@
+
+.amarillo{
+    display: flex;
+    flex-direction: column;
+    margin-left: 25%;
+    width: 30%;
+    background-color: #ffc107;
+}
+
+.titulo{
+    color: #343a40;
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-right: 10%;
+}
+
+.contenido{
+    color: #343a40;
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-right: 10%;
+}
+
+.contenido h4{
+    line-height: 30px;
+}
+
+.redes{
+    display: block;
+    color: #343a40;
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-right: 10%;
+}
+
+.ubicacion{
+    display: flex;
+    margin-top: 5%;
+}
+.celular{
+    display: flex;
+    margin-top: 5%;
+}
+.Email{
+    display: flex;
+    margin-top: 5%;
+}
+
+.redes img{
+    width: 25px;
+    height: 25px;
+    margin: 12.5px;
+}
+.circulo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: solid black;
+    margin-right: 12px;
+}
+
+.negro{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+    height: 100vh;
+    background-color: black;
+}
+
+.contenedor{
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.formulario{
+    margin-left: 10%;
+    margin-right: 10%;
+    color: white;
+    width: 100%;
+    height: 20px;
+    max-width: 400px;
+    position: relative;
+}
+
+.formulario h5{
+    color: white;
+    opacity: 0.5;
+}
+
+.formulario label{
+    color: white;
+    opacity: 0.9;
+}
+
+.formulario input {
+    background: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid white;
+    outline: 0px;
+}
+
+.formulario textarea {
+    background: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid white;
+    outline: 0px;
+}
+
+.formulario .input-dos {
+    width: 480px;
+    margin-bottom: 10px;
+    min-width: 480px;
+    max-width: 480px;
+    max-height: 150px;
+    color: white;
+}
+
+.formulario .input-uno{
+    width: 215px;
+    margin-right: 50px;
+    color: white;
+}
+
+button{
+    background-color: #ffc107;
+    width: 120px;
+    border: none;
+    height: 30px;
+    border-radius: 20px;
+}
+
+button:hover{
+    background-color: black;
+    width: 120px;
+    border: #ffc107 solid 1px;
+    height: 30px;
+    border-radius: 20px;
+    color: #ffc107;
+}
+
+.input-principal{
+    display: flex;
+    justify-content: space-between;
+}
