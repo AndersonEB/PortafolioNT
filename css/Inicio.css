@@ -1,0 +1,16 @@
+.imagen{
+    display: flex;
+    justify-content: center;
+    margin-left: 25%;
+    width: 75%;
+    height: 100vh;
+}
+
+.imagen img{
+    width: 85%;
+    object-fit: cover;
+}
+
+#primeraImagen{
+    margin: 0;
+}

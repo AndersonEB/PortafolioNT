@@ -72,6 +72,11 @@ body{
     color: white;
 }
 
+.subtitulo{
+    color: #7e7e7e !important;
+    font-size: 0.9vw !important;
+}
+
 .menul a{
     all: unset;
 }

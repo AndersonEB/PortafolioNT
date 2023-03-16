@@ -1,56 +1,66 @@
+body{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+}
+
 .contenedorfotos{
     display: flex;
-    position:static;
     flex-direction: column;
-    padding-left: 25%;
-    max-width: 31%;
+    margin-left: 25%;
+    width: 40%;
 }
 
 .contenedorfotos img {
-    width: 100%;
+    object-fit: cover;
+    height: 100vh;
 }
 
 .contenedortext{
     display: flex;
+    width: 35%;
     flex-direction: column;
-    padding-right: 5%;
-    padding-top: 2%;
+    font-weight: 500;
+    padding: 4%;
+    padding-top: 3%;
 }
 
 .texto{
     color: #fff;
-    text-align: justify;
-    font-size: 35px;
+    margin: 0;
+    font-size: 3vw;
 }
 
 #letraamarilla{
+    font-weight: 1000;
     color: #eeba1e;
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
 }
 
 .texto2{
     display: flex;
     color: gray;
-    font-size: 10px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 2vw;
+    font-weight: 300;
+    font-size: 1.25vw;
 }
 
 .contenedorcarre{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    margin-top: 48%;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    justify-content: space-around;
+    margin-top: 15%;
 }
 
 .carrera{
+    display: flex;
+    flex-direction: column;
     text-align: center;
     color: #fff;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 12px;
+    font-size: 1.3vw;
+    font-weight: bold;
 }
 
 .gris{
+    margin-top: 0.5vw;
+    font-size: 1vw;
+    font-weight: 400;
     color: gray;
 }
-

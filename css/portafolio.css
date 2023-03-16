@@ -4,6 +4,12 @@ body{
     background-color: #111111;
 }
 
+a{
+    all:unset;
+    display: flex;
+    flex-direction: column;
+}
+
 .imagen{
     display: flex;
     flex-direction: column;
